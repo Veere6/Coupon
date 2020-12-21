@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/id1"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Service Hawk"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"></TextView>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:orientation="horizontal"
+       android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Get"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"></TextView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:text="30"
+           android:id="@+id/persent"
+           android:textColor="@color/black"
+           android:paddingLeft="5dp"
+           android:textSize="18dp"
+           android:layout_height="wrap_content"></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:text="% OFF up to ₹"
+           android:textSize="18dp"
+           android:textColor="@color/black"
+           android:layout_height="wrap_content"></TextView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:text="100"
+           android:id="@+id/rupee"
+           android:textColor="@color/black"
+           android:textSize="18dp"
+           android:layout_height="wrap_content"></TextView>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="12dp"
+            android:text="Valid on orders above ₹"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="159"
+            android:textSize="12dp"
+            android:layout_height="wrap_content"></TextView>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/id1"
+        android:layout_marginTop="5dp"
+        android:layout_height="0.3dp"></View>
+
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dotedbg"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center"
+        android:text="GOBIG"
+        android:layout_toRightOf="@id/id1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:layout_alignParentRight="true"></TextView>
+
+</RelativeLayout>
+
+</LinearLayout>
